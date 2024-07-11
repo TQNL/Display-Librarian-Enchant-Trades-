@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_book"
     },
     "title": "Display Librarian Enchant Trades",
-    "description": "Display the enchanted book trades of librarians above their heads.",
+    "description": "Display the enchanted book trades of librarians above their heads. `/trigger toggle_display_of_only_max_enchants` to only show maxed enchants",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false
