@@ -14,5 +14,4 @@ scoreboard players set $filter find_look.temp 0
 tag @e remove find_looking.in_filter
 function find_looking:internal/filter/iteration
 
-execute as @e[type=villager,tag=!find_looking.result] on passengers if entity @s[type=text_display,tag=dlet_trades_display] run kill @s
 execute as @e[tag=find_looking.result] run function dlet:main2

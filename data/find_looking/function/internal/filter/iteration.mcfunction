@@ -7,6 +7,8 @@ execute store success score $success find_look.temp if predicate find_looking:ca
 
 execute if score $success find_look.temp matches 0 run tag @e[tag=find_looking.candidate,tag=find_looking.in_filter] remove find_looking.result
 execute if score $success find_look.temp matches 1 run tag @e[tag=find_looking.candidate,tag=!find_looking.in_filter] remove find_looking.result
+execute if score $success find_look.temp matches 0 as @e[tag=find_looking.candidate,tag=find_looking.in_filter] on passengers if entity @s[type=text_display,tag=dlet_trades_display] run kill @s
+execute if score $success find_look.temp matches 1 as @e[tag=find_looking.candidate,tag=!find_looking.in_filter] on passengers if entity @s[type=text_display,tag=dlet_trades_display] run kill @s
 
 scoreboard players operation $filter find_look.temp *= 2 find_look.const
 execute if score $filter find_look.temp matches 0 run scoreboard players set $filter find_look.temp 1
