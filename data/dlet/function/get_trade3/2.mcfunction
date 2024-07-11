@@ -1,4 +1,4 @@
-$execute unless data storage dlet:max_enchants {list:$(levels)} run return run function dlet:fail
+$execute if entity @p[tag=display_of_only_max_enchants] unless data storage dlet:max_enchants {list:$(levels)} run return run function dlet:fail
 
 execute on passengers if entity @s[type=text_display] run data merge entity @s {Tags:[""]}
 $execute on passengers if entity @s[type=text_display] run data modify entity @s Tags append value '$(levels)'
