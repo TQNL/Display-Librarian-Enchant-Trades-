@@ -1,6 +1,7 @@
 {
     "values": [
-        "dlet:load"
+        "dlet:load",
+        "find_looking:internal/load"
  ],
  "by ThijquintNL": []
 }
