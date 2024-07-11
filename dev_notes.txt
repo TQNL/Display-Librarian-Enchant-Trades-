@@ -1,5 +1,3 @@
-push to github, make new repo
-
 update for future enchantments
 
 other villager professions?
