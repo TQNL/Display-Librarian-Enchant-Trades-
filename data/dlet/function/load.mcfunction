@@ -1,4 +1,4 @@
-tellraw @a {"text": "Loaded Display Librarian Enchant Trades","color": "#00FF00"}
+tellraw @e[type=#test] {"text": "Loaded Display Librarian Enchant Trades","color": "#00FF00"}
 schedule function dlet:main 1s replace
 scoreboard objectives add dlet_trade_counter dummy
 scoreboard objectives add dlet_timer dummy
