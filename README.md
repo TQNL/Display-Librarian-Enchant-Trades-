@@ -1,5 +1,6 @@
 # Display-Librarian-Enchant-Trades
 Display the enchanted book trades of librarians above their heads. Switches between displaying each book in text, with the option to display all books, or only books with the maximum level.
+You can toggle the setting to only show the maximally enchanted books per player with `/trigger toggle_display_of_only_max_enchants`
 
 ### notice
 - If you want to support small creators like me, you can turn off ad blocker.
