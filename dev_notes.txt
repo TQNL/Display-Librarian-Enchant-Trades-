@@ -1,3 +1,10 @@
 update for future enchantments
 
 other villager professions?
+
+
+
+credit:
+makes use of Cloud_Wolf (YT) his derivative version
+of Der Disco Hund's Pack found at:
+https://github.com/HalbFettKaese/FindLooking/releases/tag/v1.0
